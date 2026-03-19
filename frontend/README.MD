@@ -17,6 +17,7 @@ Petit projet React/TypeScript qui regroupe des jeux de plateau jouables contre u
 **Démarrage**
 
 ```bash
+cd frontend
 npm install
 npm run dev
 ```
