@@ -44,8 +44,6 @@ export const useTicTacToe = () => {
       if (!data) {
         throw new Error("API error: empty response");
       }
-      console.log("Best move from API:", data);
-
       // On met directement à jour avec les données brutes de l'API
       setGameState({ board: data.best_board, turn: data.next_turn });
     } catch (e) {
